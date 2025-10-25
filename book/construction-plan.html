@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Research School of Earth Sciences, ANU">
+<meta name="author" content="Course Development Team">
 <meta name="dcterms.date" content="2025-10-25">
 
-<title>EMSC-2010: Data Science for Earth System Scientists</title>
+<title>Course Construction Plan – EMSC-2010: Data Science for Earth System Scientists</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./about.html" rel="next">
+<link href="./intro.html" rel="next">
+<link href="./about.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -135,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course Information</a></li><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-title">EMSC-2010</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course Information</a></li><li class="breadcrumb-item"><a href="./construction-plan.html"><span class="chapter-title">Course Construction Plan</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -164,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">EMSC-2010</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">EMSC-2010</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -174,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./construction-plan.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Course Construction Plan</span></a>
+  <a href="./construction-plan.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Course Construction Plan</span></a>
   </div>
 </li>
       </ul>
@@ -271,32 +272,58 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome-to-emsc-2010" id="toc-welcome-to-emsc-2010" class="nav-link active" data-scroll-target="#welcome-to-emsc-2010">Welcome to EMSC-2010</a>
+  <li><a href="#status-legend" id="toc-status-legend" class="nav-link active" data-scroll-target="#status-legend">Status Legend</a></li>
+  <li><a href="#development-status-overview" id="toc-development-status-overview" class="nav-link" data-scroll-target="#development-status-overview">Development Status Overview</a>
   <ul class="collapse">
-  <li><a href="#quick-links" id="toc-quick-links" class="nav-link" data-scroll-target="#quick-links">Quick Links</a></li>
+  <li><a href="#planning-phase" id="toc-planning-phase" class="nav-link" data-scroll-target="#planning-phase">Planning Phase ✅</a></li>
   </ul></li>
-  <li><a href="#what-youll-learn" id="toc-what-youll-learn" class="nav-link" data-scroll-target="#what-youll-learn">What You’ll Learn</a></li>
-  <li><a href="#course-structure" id="toc-course-structure" class="nav-link" data-scroll-target="#course-structure">Course Structure</a>
+  <li><a href="#three-phase-course-structure" id="toc-three-phase-course-structure" class="nav-link" data-scroll-target="#three-phase-course-structure">Three-Phase Course Structure</a>
   <ul class="collapse">
-  <li><a href="#three-phase-learning-design" id="toc-three-phase-learning-design" class="nav-link" data-scroll-target="#three-phase-learning-design">Three-Phase Learning Design</a></li>
+  <li><a href="#phase-1-foundational-skills-weeks-1-4" id="toc-phase-1-foundational-skills-weeks-1-4" class="nav-link" data-scroll-target="#phase-1-foundational-skills-weeks-1-4">Phase 1: Foundational Skills (Weeks 1-4)</a></li>
+  <li><a href="#phase-2-collaborative-problem-based-learning-weeks-5-7-12" id="toc-phase-2-collaborative-problem-based-learning-weeks-5-7-12" class="nav-link" data-scroll-target="#phase-2-collaborative-problem-based-learning-weeks-5-7-12">Phase 2: Collaborative Problem-Based Learning (Weeks 5, 7-12)</a></li>
+  <li><a href="#phase-3-individual-application-weeks-8-12-exam-period" id="toc-phase-3-individual-application-weeks-8-12-exam-period" class="nav-link" data-scroll-target="#phase-3-individual-application-weeks-8-12-exam-period">Phase 3: Individual Application (Weeks 8-12 + Exam Period)</a></li>
   </ul></li>
-  <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">Key Features</a></li>
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a>
+  <li><a href="#assessment-infrastructure" id="toc-assessment-infrastructure" class="nav-link" data-scroll-target="#assessment-infrastructure">Assessment Infrastructure</a>
   <ul class="collapse">
-  <li><a href="#whats-available-now" id="toc-whats-available-now" class="nav-link" data-scroll-target="#whats-available-now">What’s Available Now</a></li>
-  <li><a href="#coming-soon" id="toc-coming-soon" class="nav-link" data-scroll-target="#coming-soon">Coming Soon</a></li>
+  <li><a href="#quizzes-15" id="toc-quizzes-15" class="nav-link" data-scroll-target="#quizzes-15">Quizzes (15%)</a></li>
+  <li><a href="#github-collaborative-task-15" id="toc-github-collaborative-task-15" class="nav-link" data-scroll-target="#github-collaborative-task-15">GitHub Collaborative Task (15%)</a></li>
+  <li><a href="#team-lab-notebooks-5" id="toc-team-lab-notebooks-5" class="nav-link" data-scroll-target="#team-lab-notebooks-5">Team Lab Notebooks (5%)</a></li>
+  <li><a href="#individual-project-plan-25" id="toc-individual-project-plan-25" class="nav-link" data-scroll-target="#individual-project-plan-25">Individual Project Plan (25%)</a></li>
+  <li><a href="#individual-project-reportpresentationshowcase-40" id="toc-individual-project-reportpresentationshowcase-40" class="nav-link" data-scroll-target="#individual-project-reportpresentationshowcase-40">Individual Project Report/Presentation/Showcase (40%)</a></li>
   </ul></li>
-  <li><a href="#course-details" id="toc-course-details" class="nav-link" data-scroll-target="#course-details">Course Details</a></li>
+  <li><a href="#technical-infrastructure" id="toc-technical-infrastructure" class="nav-link" data-scroll-target="#technical-infrastructure">Technical Infrastructure</a>
+  <ul class="collapse">
+  <li><a href="#jupyterlite-environment" id="toc-jupyterlite-environment" class="nav-link" data-scroll-target="#jupyterlite-environment">JupyterLite Environment</a></li>
+  <li><a href="#github-setup" id="toc-github-setup" class="nav-link" data-scroll-target="#github-setup">GitHub Setup</a></li>
+  <li><a href="#data-repository" id="toc-data-repository" class="nav-link" data-scroll-target="#data-repository">Data Repository</a></li>
+  <li><a href="#course-website" id="toc-course-website" class="nav-link" data-scroll-target="#course-website">Course Website</a></li>
+  </ul></li>
+  <li><a href="#content-development-priorities" id="toc-content-development-priorities" class="nav-link" data-scroll-target="#content-development-priorities">Content Development Priorities</a>
+  <ul class="collapse">
+  <li><a href="#high-priority-pre-semester" id="toc-high-priority-pre-semester" class="nav-link" data-scroll-target="#high-priority-pre-semester">🔴 High Priority (Pre-semester)</a></li>
+  <li><a href="#medium-priority-early-semester" id="toc-medium-priority-early-semester" class="nav-link" data-scroll-target="#medium-priority-early-semester">🟡 Medium Priority (Early Semester)</a></li>
+  <li><a href="#lower-priority-ongoing" id="toc-lower-priority-ongoing" class="nav-link" data-scroll-target="#lower-priority-ongoing">🟢 Lower Priority (Ongoing)</a></li>
+  </ul></li>
+  <li><a href="#learning-outcomes-coverage" id="toc-learning-outcomes-coverage" class="nav-link" data-scroll-target="#learning-outcomes-coverage">Learning Outcomes Coverage</a></li>
+  <li><a href="#key-pedagogical-principles" id="toc-key-pedagogical-principles" class="nav-link" data-scroll-target="#key-pedagogical-principles">Key Pedagogical Principles</a>
+  <ul class="collapse">
+  <li><a href="#mastery-learning" id="toc-mastery-learning" class="nav-link" data-scroll-target="#mastery-learning">Mastery Learning</a></li>
+  <li><a href="#problem-based-learning" id="toc-problem-based-learning" class="nav-link" data-scroll-target="#problem-based-learning">Problem-Based Learning</a></li>
+  <li><a href="#scaffolded-progression" id="toc-scaffolded-progression" class="nav-link" data-scroll-target="#scaffolded-progression">Scaffolded Progression</a></li>
+  <li><a href="#modern-practice" id="toc-modern-practice" class="nav-link" data-scroll-target="#modern-practice">Modern Practice</a></li>
+  </ul></li>
+  <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">Timeline</a></li>
+  <li><a href="#contact-and-collaboration" id="toc-contact-and-collaboration" class="nav-link" data-scroll-target="#contact-and-collaboration">Contact and Collaboration</a></li>
   </ul>
 <div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://github.com/ANU-RSES-Education/EMSC-QuartoBook"><i class="bi bi-github"></i>Github Repository</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course Information</a></li><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-title">EMSC-2010</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course Information</a></li><li class="breadcrumb-item"><a href="./construction-plan.html"><span class="chapter-title">Course Construction Plan</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">EMSC-2010: Data Science for Earth System Scientists</h1>
-<p class="subtitle lead">Data Science for Earth System Scientists</p>
+<h1 class="title"><span class="chapter-title">Course Construction Plan</span></h1>
+<p class="subtitle lead">EMSC-2010: Data Science for Earth System Scientists</p>
 </div>
 
 
@@ -306,7 +333,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Research School of Earth Sciences, ANU </p>
+             <p>Course Development Team </p>
           </div>
   </div>
     
@@ -325,186 +352,369 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome-to-emsc-2010" class="level2">
-<h2 class="anchored" data-anchor-id="welcome-to-emsc-2010">Welcome to EMSC-2010</h2>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Learn to Ask Better Questions — and Find Meaningful Answers
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Data science is the most powerful tool we have for separating scientific fact from fiction. This course will teach you to interpret data, assess uncertainty, model outcomes, and make informed decisions about real Earth and Environmental science problems.</p>
-</div>
-</div>
-<section id="quick-links" class="level3">
-<h3 class="anchored" data-anchor-id="quick-links">Quick Links</h3>
-<ul>
-<li><a href="./about.html"><strong>About this Course</strong></a> - Full course information, learning outcomes, and structure</li>
-<li><a href="./construction-plan.html"><strong>Construction Plan</strong></a> - Current development status and roadmap</li>
-<li><a href="./intro.html"><strong>Course Materials</strong></a> - Lecture notes, practicals, and resources (under development)</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="what-youll-learn" class="level2">
-<h2 class="anchored" data-anchor-id="what-youll-learn">What You’ll Learn</h2>
-<p>This course is built around five key questions:</p>
-<div class="grid">
-<section id="prediction" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="prediction">Prediction</h3>
-<p><strong>“How can I make predictions of the future?”</strong></p>
-<p>Learn time series analysis, trend detection, and forecasting methods using real climate and environmental data.</p>
-</section>
-<section id="optimization" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="optimization">Optimization</h3>
-<p><strong>“Where should I expend effort to improve results?”</strong></p>
-<p>Master sensitivity analysis, error propagation, and resource allocation strategies for field studies and monitoring.</p>
-</section>
-<section id="measurement" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="measurement">Measurement</h3>
-<p><strong>“What accuracy and how many measurements do I need?”</strong></p>
-<p>Apply sample size determination, power analysis, and measurement error assessment to real sampling problems.</p>
-</section>
-<section id="significance" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="significance">Significance</h3>
-<p><strong>“Is this result meaningful, or just random chance?”</strong></p>
-<p>Understand hypothesis testing, statistical significance, and how to separate signal from noise in Earth science data.</p>
-</section>
-<section id="causation" class="level3 g-col-12 g-col-md-6">
-<h3 class="anchored" data-anchor-id="causation">Causation</h3>
-<p><strong>“Why is this happening and what’s driving the change?”</strong></p>
-<p>Explore correlation vs.&nbsp;causation, attribution methods, and multivariate analysis for understanding Earth system processes.</p>
-</section>
-</div>
-<hr>
-</section>
-<section id="course-structure" class="level2">
-<h2 class="anchored" data-anchor-id="course-structure">Course Structure</h2>
-<section id="three-phase-learning-design" class="level3">
-<h3 class="anchored" data-anchor-id="three-phase-learning-design">Three-Phase Learning Design</h3>
-<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Phase 1: Build Your Foundation (Weeks 1-4)
+<span class="screen-reader-only">Warning</span>Under Construction
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Mastery learning</strong> with unlimited quiz attempts ensures all students develop essential data science skills: critical thinking, algorithmic problem-solving, statistical analysis, hypothesis testing, and working with data.</p>
+<p>This course is currently under development. This page tracks our progress and provides links to detailed planning documents. This page will be removed once the course is complete.</p>
+</div>
+</div>
+<section id="status-legend" class="level2">
+<h2 class="anchored" data-anchor-id="status-legend">Status Legend</h2>
 <ul>
-<li>2 × 2-hour practicals per week</li>
-<li>1 × 1-hour tutorial per week</li>
-<li>Weekly quizzes (hurdle requirement)</li>
+<li>✅ Complete</li>
+<li>⏱️ Not started / Pending</li>
+<li>⚠️ In progress / Needs attention</li>
+<li>⛔ Blocked / Issue</li>
 </ul>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Phase 2: Apply Collaboratively (Weeks 5-12)
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Work in teams on <strong>problems you choose</strong> from Earth and Environmental Sciences. Learn modern collaborative workflows.</p>
-<ul>
-<li>2-hour lectorial per week</li>
-<li>3-hour practical per week</li>
-<li>GitHub collaborative project</li>
-<li>Team lab notebooks</li>
-</ul>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Phase 3: Demonstrate Independence (Weeks 8-12 + Exam Period)
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Tackle an individual project from planning through to presentation, building on your team experience.</p>
-<ul>
-<li>Individual project plan</li>
-<li>Project execution</li>
-<li>Final report (due Week 12)</li>
-<li>Project showcase (exam period)</li>
-</ul>
-</div>
-</div>
+<hr>
+</section>
+<section id="development-status-overview" class="level2">
+<h2 class="anchored" data-anchor-id="development-status-overview">Development Status Overview</h2>
+<section id="planning-phase" class="level3">
+<h3 class="anchored" data-anchor-id="planning-phase">Planning Phase ✅</h3>
+<p>Complete course structure, learning outcomes, and assessment design documented.</p>
+<p><strong>Key Documents:</strong> - <a href=".local_workspace/course_overview.md">Course Overview</a> - Complete course information and structure - <a href=".local_workspace/development_notes.md">Development Notes</a> - Ongoing planning and decisions - <a href=".local_workspace/assessment_analysis.md">Assessment Analysis</a> - Detailed assessment breakdown - <a href=".local_workspace/content_development_guide.md">Content Development Guide</a> - Week-by-week content plan</p>
 <hr>
 </section>
 </section>
-<section id="key-features" class="level2">
-<h2 class="anchored" data-anchor-id="key-features">Key Features</h2>
-<div class="grid">
-<section id="student-choice" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="student-choice">Student Choice</h3>
-<p>Select problems that are <strong>relevant and exciting to you</strong> - climate change, earthquakes, water resources, mineral exploration, or any Earth science question you care about.</p>
-</section>
-<section id="modern-tools" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="modern-tools">Modern Tools</h3>
-<p>Learn Python, Git/GitHub, Jupyter notebooks, and data visualization - the same tools used in real research and industry.</p>
-</section>
-<section id="equity-focused" class="level3 g-col-12 g-col-md-4">
-<h3 class="anchored" data-anchor-id="equity-focused">Equity-Focused</h3>
-<p><strong>All students, not just the best</strong>, master essential skills through unlimited attempts and comprehensive support.</p>
-</section>
-</div>
-<hr>
-</section>
-<section id="getting-started" class="level2">
-<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Course Under Construction
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This course is currently being developed. Content will be added progressively throughout semester preparation. Check the <a href="./construction-plan.html">Construction Plan</a> for current status.</p>
-</div>
-</div>
-<section id="whats-available-now" class="level3">
-<h3 class="anchored" data-anchor-id="whats-available-now">What’s Available Now</h3>
-<p>✅ Course structure and learning outcomes defined ✅ Assessment framework established ✅ Week-by-week content plan created</p>
-</section>
-<section id="coming-soon" class="level3">
-<h3 class="anchored" data-anchor-id="coming-soon">Coming Soon</h3>
-<p>⏱️ Week 1-4 practical notebooks ⏱️ Quiz materials ⏱️ Project templates ⏱️ Lectorial slides</p>
-<hr>
-</section>
-</section>
-<section id="course-details" class="level2">
-<h2 class="anchored" data-anchor-id="course-details">Course Details</h2>
-<p><strong>Level:</strong> 2000 (co-badged with 4000) <strong>Credit Points:</strong> 6 <strong>Workload:</strong> ~130 hours <strong>Prerequisites:</strong> Basic Python programming (<a href="https://anu-rses-education.github.io/Zero-2-Python-for-Earth-Sciences/book/">Zero-2-Python for Earth Sciences</a>)</p>
-<p><strong>Contact:</strong> Research School of Earth Sciences, ANU</p>
-<hr>
+<section id="three-phase-course-structure" class="level2">
+<h2 class="anchored" data-anchor-id="three-phase-course-structure">Three-Phase Course Structure</h2>
+<section id="phase-1-foundational-skills-weeks-1-4" class="level3">
+<h3 class="anchored" data-anchor-id="phase-1-foundational-skills-weeks-1-4">Phase 1: Foundational Skills (Weeks 1-4)</h3>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>About This Site
+<span class="screen-reader-only">Note</span>Mastery Learning Approach
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This site contains all course materials including lecture notes, practical notebooks, slides, and assessment information. It is built using <a href="https://quarto.org">Quarto</a> and hosted on GitHub Pages.</p>
-<p>All materials are open source and available on <a href="https://github.com/ANU-RSES-Education/EMSC-2010">GitHub</a>.</p>
+<p>Ensures <strong>all students, not just the best</strong>, master essential skills before progressing to project work.</p>
+</div>
+</div>
+<p><strong>Format:</strong> 2 × 2-hour practicals + 1-hour tutorial per week <strong>Assessment:</strong> Weekly quizzes (unlimited attempts, hurdle requirement)</p>
+<section id="content-development-status" class="level4">
+<h4 class="anchored" data-anchor-id="content-development-status">Content Development Status</h4>
+<p><strong>Week 1: Introduction and Setup</strong> - ⏱️ Practical 1: Course intro, environment setup, first Python program - ⏱️ Practical 2: Jupyter notebooks, markdown, basic plotting - ⏱️ Tutorial: Course overview, problem-based learning introduction - ⏱️ Example dataset for first visualization</p>
+<p><strong>Week 2: Data Fundamentals</strong> - ⏱️ Practical 1: Data structures, reading files, pandas introduction - ⏱️ Practical 2: Data cleaning, quality assessment - ⏱️ Tutorial: Quiz 1 support, data quality concepts - ⏱️ Quiz 1: Python basics (question bank) - ⏱️ Climate dataset example</p>
+<p><strong>Week 3: Analysis and Visualization</strong> - ⏱️ Practical 1: Data transformation, statistical summaries - ⏱️ Practical 2: Advanced visualization, publication-quality plots - ⏱️ Tutorial: Quiz 2 support, statistical concepts - ⏱️ Quiz 2: Pandas and data manipulation (question bank) - ⏱️ Seismic and spatial datasets</p>
+<p><strong>Week 4: Version Control and Collaboration</strong> - ⏱️ Practical 1: Git fundamentals, repositories, commits - ⏱️ Practical 2: GitHub workflows, pull requests, collaboration - ⏱️ Tutorial: Quiz 3 support, collaborative coding practices - ⏱️ Quiz 3: Git/GitHub and collaboration (question bank) - ⏱️ GitHub Classroom setup - ⏱️ Team formation strategy</p>
+<hr>
+</section>
+</section>
+<section id="phase-2-collaborative-problem-based-learning-weeks-5-7-12" class="level3">
+<h3 class="anchored" data-anchor-id="phase-2-collaborative-problem-based-learning-weeks-5-7-12">Phase 2: Collaborative Problem-Based Learning (Weeks 5, 7-12)</h3>
+<p><strong>Format:</strong> 2-hour lectorial + 3-hour practical per week <strong>Assessment:</strong> GitHub collaborative task (15%) + Team lab notebooks (5%)</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Student Agency
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Students select problems that are <strong>relevant and exciting</strong> to them from Earth and Environmental Sciences.</p>
+</div>
+</div>
+<section id="content-development-status-1" class="level4">
+<h4 class="anchored" data-anchor-id="content-development-status-1">Content Development Status</h4>
+<p><strong>Week 5: Project Launch</strong> - ⏱️ Lectorial: Introduction to problem-based learning - ⏱️ Practical: Team formation, problem brainstorming - ⏱️ GitHub collaborative task specification - ⏱️ Lab notebook template and guidelines - ⏱️ Curated project topics and data sources</p>
+<p><strong>Week 6: Mid-semester Break</strong> - No scheduled classes</p>
+<p><strong>Week 7: Statistical Foundations</strong> - ⏱️ Lectorial: Hypothesis testing, p-values, significance - ⏱️ Practical: Statistical tests with team data - ⏱️ Notebook: Common statistical tests - ⏱️ Earth Science statistical examples</p>
+<p><strong>Week 8: Prediction and Forecasting</strong> - ⏱️ Lectorial: Time series, trend detection, uncertainty - ⏱️ Practical: Time series analysis, forecasting - ⏱️ Notebook: Time series methods - ⏱️ Climate/environmental time series datasets</p>
+<p><strong>Week 9: Modeling and Simulation</strong> - ⏱️ Lectorial: Introduction to modeling, validation - ⏱️ Practical: Building models, sensitivity analysis - ⏱️ Notebook: Simple Earth Science models - ⏱️ Example models (population, diffusion)</p>
+<p><strong>Week 10: Optimization and Resource Allocation</strong> - ⏱️ Lectorial: Optimization, sample size, error propagation - ⏱️ Practical: Optimization examples, power analysis - ⏱️ Notebook: Optimization methods - ⏱️ Sampling strategy examples</p>
+<p><strong>Week 11: Causation and Attribution</strong> - ⏱️ Lectorial: Correlation vs causation, regression - ⏱️ Practical: Regression analysis, multivariate methods - ⏱️ Notebook: Regression and attribution - ⏱️ Climate attribution case study</p>
+<p><strong>Week 12: Advanced Topics</strong> - ⏱️ Lectorial: ML introduction, spatial statistics, presentation skills - ⏱️ Practical: Project finalization, report writing - ⏱️ Notebook: ML basics (sklearn) - ⏱️ Presentation guidelines and rubric</p>
+<hr>
+</section>
+</section>
+<section id="phase-3-individual-application-weeks-8-12-exam-period" class="level3">
+<h3 class="anchored" data-anchor-id="phase-3-individual-application-weeks-8-12-exam-period">Phase 3: Individual Application (Weeks 8-12 + Exam Period)</h3>
+<p><strong>Assessment:</strong> Individual project plan (25%) + Project report/presentation/showcase (40%)</p>
+<section id="development-status" class="level4">
+<h4 class="anchored" data-anchor-id="development-status">Development Status</h4>
+<ul>
+<li>⏱️ Individual project plan template</li>
+<li>⏱️ Project plan rubric</li>
+<li>⏱️ Project report requirements and rubric</li>
+<li>⏱️ Presentation/showcase format and rubric</li>
+<li>⏱️ Example projects (from 4000-level courses)</li>
+<li>⏱️ Project scoping guidelines</li>
+</ul>
+<p><strong>Exam Period: Student Showcase</strong> - ⏱️ Showcase/presentation schedule and logistics - ⏱️ Presentation format and guidelines (oral examination or conference-style) - ⏱️ Assessment rubric for presentation component - ⏱️ Reflection prompts on learning journey</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="assessment-infrastructure" class="level2">
+<h2 class="anchored" data-anchor-id="assessment-infrastructure">Assessment Infrastructure</h2>
+<section id="quizzes-15" class="level3">
+<h3 class="anchored" data-anchor-id="quizzes-15">Quizzes (15%)</h3>
+<ul>
+<li>⏱️ Quiz 1 question bank (Week 2)</li>
+<li>⏱️ Quiz 2 question bank (Week 3)</li>
+<li>⏱️ Quiz 3 question bank (Week 4)</li>
+<li>⏱️ Automated grading setup</li>
+<li>⏱️ Mastery threshold definition</li>
+<li>⏱️ Practice quiz materials</li>
+</ul>
+</section>
+<section id="github-collaborative-task-15" class="level3">
+<h3 class="anchored" data-anchor-id="github-collaborative-task-15">GitHub Collaborative Task (15%)</h3>
+<ul>
+<li>⏱️ Task specification document</li>
+<li>⏱️ Starter repository template</li>
+<li>⏱️ Assessment rubric (process + product)</li>
+<li>⏱️ GitHub Classroom organization setup</li>
+<li>⏱️ Team formation materials</li>
+</ul>
+</section>
+<section id="team-lab-notebooks-5" class="level3">
+<h3 class="anchored" data-anchor-id="team-lab-notebooks-5">Team Lab Notebooks (5%)</h3>
+<ul>
+<li>⏱️ Lab notebook template</li>
+<li>⏱️ Expectations document</li>
+<li>⏱️ Assessment rubric</li>
+<li>⏱️ Platform selection (Jupyter? GitHub?)</li>
+</ul>
+</section>
+<section id="individual-project-plan-25" class="level3">
+<h3 class="anchored" data-anchor-id="individual-project-plan-25">Individual Project Plan (25%)</h3>
+<ul>
+<li>⏱️ Requirements document</li>
+<li>⏱️ Template with sections</li>
+<li>⏱️ Assessment rubric</li>
+<li>⏱️ Project topic guidance</li>
+<li>⏱️ Example plans</li>
+</ul>
+</section>
+<section id="individual-project-reportpresentationshowcase-40" class="level3">
+<h3 class="anchored" data-anchor-id="individual-project-reportpresentationshowcase-40">Individual Project Report/Presentation/Showcase (40%)</h3>
+<ul>
+<li>⏱️ Report requirements</li>
+<li>⏱️ Report rubric</li>
+<li>⏱️ Presentation format and questions</li>
+<li>⏱️ Presentation/showcase rubric</li>
+<li>⏱️ Code submission guidelines</li>
+<li>⏱️ Example projects and presentation scenarios</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="technical-infrastructure" class="level2">
+<h2 class="anchored" data-anchor-id="technical-infrastructure">Technical Infrastructure</h2>
+<section id="jupyterlite-environment" class="level3">
+<h3 class="anchored" data-anchor-id="jupyterlite-environment">JupyterLite Environment</h3>
+<ul>
+<li>⏱️ Python package configuration (pixi.toml)</li>
+<li>⏱️ Pre-loaded datasets</li>
+<li>⏱️ Extension setup</li>
+<li>⏱️ Testing and validation</li>
+</ul>
+</section>
+<section id="github-setup" class="level3">
+<h3 class="anchored" data-anchor-id="github-setup">GitHub Setup</h3>
+<ul>
+<li>✅ Repository created</li>
+<li>⏱️ GitHub Classroom organization</li>
+<li>⏱️ Template repositories</li>
+<li>⏱️ Automated testing (for quizzes?)</li>
+</ul>
+</section>
+<section id="data-repository" class="level3">
+<h3 class="anchored" data-anchor-id="data-repository">Data Repository</h3>
+<ul>
+<li>⏱️ Climate datasets (BOM, NOAA)</li>
+<li>⏱️ Seismic catalogs (GA, USGS)</li>
+<li>⏱️ Geoscience datasets</li>
+<li>⏱️ Environmental monitoring data</li>
+<li>⏱️ Spatial/GIS datasets</li>
+<li>⏱️ Data documentation</li>
+</ul>
+</section>
+<section id="course-website" class="level3">
+<h3 class="anchored" data-anchor-id="course-website">Course Website</h3>
+<ul>
+<li>✅ Quarto book structure</li>
+<li>⏱️ Custom styling/branding</li>
+<li>✅ GitHub Pages deployment configured</li>
+<li>⏱️ Content population</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="content-development-priorities" class="level2">
+<h2 class="anchored" data-anchor-id="content-development-priorities">Content Development Priorities</h2>
+<section id="high-priority-pre-semester" class="level3">
+<h3 class="anchored" data-anchor-id="high-priority-pre-semester">🔴 High Priority (Pre-semester)</h3>
+<p>Essential for course launch:</p>
+<ol type="1">
+<li><strong>Week 1-4 Practical Notebooks</strong> - Foundation for all students</li>
+<li><strong>Three Quiz Question Banks</strong> - Hurdle requirements must be ready</li>
+<li><strong>Tutorial Materials</strong> - Support for foundational weeks</li>
+<li><strong>GitHub Classroom Setup</strong> - Required for collaborative work</li>
+<li><strong>Week 5 Project Launch Materials</strong> - Start of Phase 2</li>
+</ol>
+</section>
+<section id="medium-priority-early-semester" class="level3">
+<h3 class="anchored" data-anchor-id="medium-priority-early-semester">🟡 Medium Priority (Early Semester)</h3>
+<p>Needed during first 4 weeks:</p>
+<ol start="6" type="1">
+<li><strong>Lectorial Slides (Weeks 7-12)</strong> - Can develop during Phase 1</li>
+<li><strong>Assessment Templates and Rubrics</strong> - Needed before first assessments due</li>
+<li><strong>Data Repository Setup</strong> - Curated datasets for student use</li>
+<li><strong>Team Formation Strategy</strong> - Ready for Week 5</li>
+</ol>
+</section>
+<section id="lower-priority-ongoing" class="level3">
+<h3 class="anchored" data-anchor-id="lower-priority-ongoing">🟢 Lower Priority (Ongoing)</h3>
+<p>Enhance and refine:</p>
+<ol start="10" type="1">
+<li><strong>Advanced Topic Materials</strong> - ML, spatial stats (optional depth)</li>
+<li><strong>Extended Examples</strong> - Additional practice problems</li>
+<li><strong>Video Tutorials</strong> - Supplementary learning resources</li>
+<li><strong>Case Studies</strong> - Deep-dive examples</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="learning-outcomes-coverage" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes-coverage">Learning Outcomes Coverage</h2>
+<p>All content maps to seven learning outcomes:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>LO</th>
+<th>Description</th>
+<th>Assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Data Assessment</td>
+<td>Project plan, report, lab notebooks</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Data Management (FAIR)</td>
+<td>Quizzes, GitHub task</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Critical Evaluation</td>
+<td>Project report, lab notebooks</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Independent Application</td>
+<td>Quizzes, project plan, report</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Technical Skills (Python)</td>
+<td>Quizzes, GitHub task, report</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Collaborative Coding</td>
+<td>Quizzes, GitHub task, lab notebooks</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Professional Development</td>
+<td>All assessments</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="key-pedagogical-principles" class="level2">
+<h2 class="anchored" data-anchor-id="key-pedagogical-principles">Key Pedagogical Principles</h2>
+<section id="mastery-learning" class="level3">
+<h3 class="anchored" data-anchor-id="mastery-learning">Mastery Learning</h3>
+<ul>
+<li>Unlimited quiz attempts in weeks 1-4</li>
+<li>Ensures all students reach required standard</li>
+<li>Equitable foundation for complex work</li>
+</ul>
+</section>
+<section id="problem-based-learning" class="level3">
+<h3 class="anchored" data-anchor-id="problem-based-learning">Problem-Based Learning</h3>
+<ul>
+<li>Student agency in problem selection</li>
+<li>Real Earth &amp; Environmental science context</li>
+<li>Encourages ownership and engagement</li>
+</ul>
+</section>
+<section id="scaffolded-progression" class="level3">
+<h3 class="anchored" data-anchor-id="scaffolded-progression">Scaffolded Progression</h3>
+<ul>
+<li>Foundation → Collaboration → Independence</li>
+<li>Team work builds confidence</li>
+<li>Individual work demonstrates mastery</li>
+</ul>
+</section>
+<section id="modern-practice" class="level3">
+<h3 class="anchored" data-anchor-id="modern-practice">Modern Practice</h3>
+<ul>
+<li>AI tools encouraged with critical evaluation</li>
+<li>Collaboration reflects scientific practice</li>
+<li>Version control for accountability</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="timeline" class="level2">
+<h2 class="anchored" data-anchor-id="timeline">Timeline</h2>
+<p><strong>Current Status:</strong> Planning complete, content development beginning</p>
+<p><strong>Pre-semester Goals:</strong> - ✅ Course structure finalized - ⏱️ Week 1-4 content complete - ⏱️ Quiz infrastructure ready - ⏱️ GitHub setup complete</p>
+<p><strong>First 4 Weeks Goals:</strong> - ⏱️ Deliver foundational content - ⏱️ Finalize lectorial materials - ⏱️ Prepare Phase 2 materials</p>
+<p><strong>Mid-semester Goals:</strong> - ⏱️ Collaborative projects underway - ⏱️ Individual project support ready - ⏱️ Iterative improvements based on feedback</p>
+<p><strong>End of Semester:</strong> - ⏱️ Student conference delivered - ⏱️ Course evaluation - ⏱️ Documentation for future iterations</p>
+<hr>
+</section>
+<section id="contact-and-collaboration" class="level2">
+<h2 class="anchored" data-anchor-id="contact-and-collaboration">Contact and Collaboration</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Planning Documents
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Comprehensive planning documents are maintained in <code>.local_workspace/</code> directory (not tracked in git). These provide detailed week-by-week content plans, assessment specifications, and development notes.</p>
+<p>Access via symlink: <code>CLAUDE</code> → <code>.local_workspace/course_overview.md</code></p>
+</div>
+</div>
+<p><strong>Last Updated:</strong> 2024-10-24 <strong>Next Review:</strong> Weekly during development</p>
+<hr>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Contributing
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is a collaborative development effort. If you have suggestions, resources, or want to contribute to specific content areas, please contact the course development team.</p>
 </div>
 </div>
 
@@ -939,10 +1149,13 @@ window._ojs.runtime.interpretFromScriptTags();
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./about.html" class="pagination-link" aria-label="About this Course">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">About this Course</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./about.html" class="pagination-link" aria-label="About this Course">
-        <span class="nav-page-text"><span class="chapter-title">About this Course</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
+        <span class="nav-page-text"><span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

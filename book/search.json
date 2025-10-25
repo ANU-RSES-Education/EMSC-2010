@@ -2,12 +2,325 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "EMSC Quarto",
+    "title": "EMSC-2010: Data Science for Earth System Scientists",
     "section": "",
-    "text": "This is a template repository for Lecture notes that include a computational component. It builds a website from the notes and includes live-links to source code that will run on binder. This template is pre-configured for courses at Research School of Earth Sciences, but is freely available for adoption elsewhere.\nI use the Quarto publication system which converts simple markdown formatted documents to webpages, pdf and slides. Quarto is designed to develop reusable content and is based around pandoc: you should be able to quickly import and convert content to the quarto version of markdown (especially if you have been using jupyter-book or myst-md - the concepts are very similar).\nTo use this repository, you will need make a fork for yourself and replace this content with your own. You will also need set a few configuration options to match the course metadata. I’m going to explain how this works.",
+    "text": "Welcome to EMSC-2010",
     "crumbs": [
-      "Introduction",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>EMSC e-Course template</span>"
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>EMSC-2010</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome-to-emsc-2010",
+    "href": "index.html#welcome-to-emsc-2010",
+    "title": "EMSC-2010: Data Science for Earth System Scientists",
+    "section": "",
+    "text": "NoteLearn to Ask Better Questions — and Find Meaningful Answers\n\n\n\nData science is the most powerful tool we have for separating scientific fact from fiction. This course will teach you to interpret data, assess uncertainty, model outcomes, and make informed decisions about real Earth and Environmental science problems.\n\n\n\nQuick Links\n\nAbout this Course - Full course information, learning outcomes, and structure\nConstruction Plan - Current development status and roadmap\nCourse Materials - Lecture notes, practicals, and resources (under development)",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>EMSC-2010</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#what-youll-learn",
+    "href": "index.html#what-youll-learn",
+    "title": "EMSC-2010: Data Science for Earth System Scientists",
+    "section": "What You’ll Learn",
+    "text": "What You’ll Learn\nThis course is built around five key questions:\n\n\nPrediction\n“How can I make predictions of the future?”\nLearn time series analysis, trend detection, and forecasting methods using real climate and environmental data.\n\n\nOptimization\n“Where should I expend effort to improve results?”\nMaster sensitivity analysis, error propagation, and resource allocation strategies for field studies and monitoring.\n\n\nMeasurement\n“What accuracy and how many measurements do I need?”\nApply sample size determination, power analysis, and measurement error assessment to real sampling problems.\n\n\nSignificance\n“Is this result meaningful, or just random chance?”\nUnderstand hypothesis testing, statistical significance, and how to separate signal from noise in Earth science data.\n\n\nCausation\n“Why is this happening and what’s driving the change?”\nExplore correlation vs. causation, attribution methods, and multivariate analysis for understanding Earth system processes.",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>EMSC-2010</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#course-structure",
+    "href": "index.html#course-structure",
+    "title": "EMSC-2010: Data Science for Earth System Scientists",
+    "section": "Course Structure",
+    "text": "Course Structure\n\nThree-Phase Learning Design\n\n\n\n\n\n\nTipPhase 1: Build Your Foundation (Weeks 1-4)\n\n\n\nMastery learning with unlimited quiz attempts ensures all students develop essential data science skills: critical thinking, algorithmic problem-solving, statistical analysis, hypothesis testing, and working with data.\n\n2 × 2-hour practicals per week\n1 × 1-hour tutorial per week\nWeekly quizzes (hurdle requirement)\n\n\n\n\n\n\n\n\n\nTipPhase 2: Apply Collaboratively (Weeks 5-12)\n\n\n\nWork in teams on problems you choose from Earth and Environmental Sciences. Learn modern collaborative workflows.\n\n2-hour lectorial per week\n3-hour practical per week\nGitHub collaborative project\nTeam lab notebooks\n\n\n\n\n\n\n\n\n\nTipPhase 3: Demonstrate Independence (Weeks 8-12 + Exam Period)\n\n\n\nTackle an individual project from planning through to presentation, building on your team experience.\n\nIndividual project plan\nProject execution\nFinal report (due Week 12)\nProject showcase (exam period)",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>EMSC-2010</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#key-features",
+    "href": "index.html#key-features",
+    "title": "EMSC-2010: Data Science for Earth System Scientists",
+    "section": "Key Features",
+    "text": "Key Features\n\n\nStudent Choice\nSelect problems that are relevant and exciting to you - climate change, earthquakes, water resources, mineral exploration, or any Earth science question you care about.\n\n\nModern Tools\nLearn Python, Git/GitHub, Jupyter notebooks, and data visualization - the same tools used in real research and industry.\n\n\nEquity-Focused\nAll students, not just the best, master essential skills through unlimited attempts and comprehensive support.",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>EMSC-2010</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "EMSC-2010: Data Science for Earth System Scientists",
+    "section": "Getting Started",
+    "text": "Getting Started\n\n\n\n\n\n\nImportantCourse Under Construction\n\n\n\nThis course is currently being developed. Content will be added progressively throughout semester preparation. Check the Construction Plan for current status.\n\n\n\nWhat’s Available Now\n✅ Course structure and learning outcomes defined ✅ Assessment framework established ✅ Week-by-week content plan created\n\n\nComing Soon\n⏱️ Week 1-4 practical notebooks ⏱️ Quiz materials ⏱️ Project templates ⏱️ Lectorial slides",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>EMSC-2010</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#course-details",
+    "href": "index.html#course-details",
+    "title": "EMSC-2010: Data Science for Earth System Scientists",
+    "section": "Course Details",
+    "text": "Course Details\nLevel: 2000 (co-badged with 4000) Credit Points: 6 Workload: ~130 hours Prerequisites: Basic Python programming (Zero-2-Python for Earth Sciences)\nContact: Research School of Earth Sciences, ANU\n\n\n\n\n\n\n\nNoteAbout This Site\n\n\n\nThis site contains all course materials including lecture notes, practical notebooks, slides, and assessment information. It is built using Quarto and hosted on GitHub Pages.\nAll materials are open source and available on GitHub.",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>EMSC-2010</span>"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this Course",
+    "section": "",
+    "text": "Discover How to Ask Better Questions\nData science is the most powerful tool we have for separating scientific fact from fiction. In this course, you will explore practical and relevant problems in Earth and Environmental Sciences by learning how to interpret data, assess uncertainty, model outcomes and make informed decisions.",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>About this Course</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#what-you-will-learn-to-answer",
+    "href": "about.html#what-you-will-learn-to-answer",
+    "title": "About this Course",
+    "section": "What You Will Learn to Answer",
+    "text": "What You Will Learn to Answer\nThis course is built around five key questions that Earth System scientists actually ask:\n\n\n\n\n\n\nNoteKey Questions\n\n\n\n\n“How can I make predictions of the future?”\n“Where should I expend the most effort to improve my results?”\n“What accuracy and how many measurements do I need?”\n“Is this result meaningful, or just random chance?”\n“Why is this happening and what’s driving the change?”",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>About this Course</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#course-approach",
+    "href": "about.html#course-approach",
+    "title": "About this Course",
+    "section": "Course Approach",
+    "text": "Course Approach\nUsing real-world examples and hands-on activities, you will develop analytical thinking and quantitative problem-solving skills that are highly valued across science and industry. This course provides a foundation in essential tools through problem-based learning tailored to the challenges Earth System scientists face today.\n\n\n\n\n\n\nNoteCore Skills\n\n\n\n\nCritical thinking - Evaluating research methods and drawing sound conclusions\nAlgorithmic approaches - Breaking down complex problems into solvable steps\nProblem-solving strategies - Using computational thinking for Earth System science\nStatistical analysis - Understanding uncertainty and testing hypotheses\nData science - Working with real Earth System science datasets\nCollaboration - Modern team-based research workflows",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>About this Course</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#course-details",
+    "href": "about.html#course-details",
+    "title": "About this Course",
+    "section": "Course Details",
+    "text": "Course Details\nCourse Code: EMSC-2010 Level: 2000 (co-badged with 4000) Credit Points: 6 Workload: ~130 hours throughout semester\n\n\n\n\n\n\nNoteLearning Outcomes\n\n\n\nUpon successful completion, you will be able to:\n\n[LO1] Assess data quality - Evaluate suitability and quality of datasets for Earth System science problems\n[LO2] Manage data professionally - Apply contemporary best practices including FAIR data principles\n[LO3] Think critically - Reflect on research quality, appropriateness of analyses, and validity of conclusions\n[LO4] Apply independently - Use statistics, mathematics and programming to solve Earth System science problems\n[LO5] Code effectively - Write Python code to analyse, visualise and model data and create simulations\n[LO6] Collaborate - Work successfully in team coding environments using version control\n[LO7] Communicate - Develop as a lifelong learner and communicate data-driven concepts effectively",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>About this Course</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#how-you-will-be-assessed",
+    "href": "about.html#how-you-will-be-assessed",
+    "title": "About this Course",
+    "section": "How You Will Be Assessed",
+    "text": "How You Will Be Assessed\nThe course uses a three-phase assessment structure designed to build your skills progressively:\n\nPhase 1: Build Your Foundation (Weeks 1-4)\nThis phase focuses on developing essential data science skills:\n\nCritical thinking and evaluating research quality\nAlgorithmic approaches to problem-solving\nComputational strategies for Earth System science\nStatistical analysis and hypothesis testing\nWorking with data (quality, manipulation, visualization)\n\nImportant: This phase builds foundational data science capabilities, not programming skills—those are assumed prerequisites.\n\n\n\n\n\n\nTipMastery Learning Approach\n\n\n\nIn Phase 1, we focus on mastery of all the concepts you will need in the second part of the course. Weekly quizzes with unlimited attempts ensure all students master these essential skills before moving to project work. This is not about getting it right first time—it is about ensuring everyone succeeds.\n\n\nAssessment: 15% - Three weekly quizzes (hurdle requirement)\n\n\nPhase 2: Apply Collaboratively (Weeks 5-12)\nWork in teams on real Earth Science problems you choose. Learn modern collaborative workflows using GitHub and document your journey.\nAssessment: - 15% - GitHub collaborative task - 5% - Team lab notebooks\n\n\nPhase 3: Demonstrate Independence (Weeks 8-12 + Exam Period)\nBuilding on your team experience, tackle an individual project from conception through to presentation.\nAssessment: - 25% - Individual project plan (due Week 8-9) - 40% - Project report/presentation/showcase (report due Week 12, presentation in exam period)",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>About this Course</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#what-makes-this-course-different",
+    "href": "about.html#what-makes-this-course-different",
+    "title": "About this Course",
+    "section": "What Makes This Course Different",
+    "text": "What Makes This Course Different\n\nStudent Agency\nYou choose problems that are relevant and exciting to you. Whether it’s climate change, earthquakes, water resources, or mineral exploration - apply data science to questions you care about.\n\n\nModern Practice\nLearn the tools and workflows used in real research: - Python programming - Version control (Git/GitHub) - Jupyter notebooks - Data visualization - Statistical analysis - Collaborative coding\n\n\nAI as a Tool\nWe encourage use of AI tools (ChatGPT, Copilot, etc.) as productivity aids - just like in modern scientific practice. But you will learn to critically evaluate AI outputs, not blindly accept them.\n\n\nEquity-Focused Design\nThe mastery learning approach in weeks 1-4 ensures all students, not just the best, progress prepared for the complex project work ahead. Multiple pathways to success, unlimited attempts, and comprehensive support.",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>About this Course</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#weekly-structure",
+    "href": "about.html#weekly-structure",
+    "title": "About this Course",
+    "section": "Weekly Structure",
+    "text": "Weekly Structure\n\nWeeks 1-4: Foundations\n\n2 × 2-hour practicals (hands-on Python and data skills)\n1 × 1-hour tutorial (concepts and quiz support)\n\n\n\nWeeks 5-12: Application\n\n1 × 2-hour lectorial (interactive lecture + tutorial)\n1 × 3-hour practical (project work, team collaboration, consultation)\n\n\n\nExam Period: Student Showcase\n\nIndividual project presentations or oral examination",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>About this Course</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#who-this-course-is-for",
+    "href": "about.html#who-this-course-is-for",
+    "title": "About this Course",
+    "section": "Who This Course is For",
+    "text": "Who This Course is For\nThis course provides the quantitative and computational foundation for upper-level Earth and Environmental Science courses. Whether you are pursuing:\n\nGeophysics\nClimate science\nEnvironmental monitoring\nGeochemistry\nHydrology\nNatural hazards\n\n…you will gain the data science skills essential for modern Earth System science research and industry practice.\nPrerequisites: Basic Python programming skills are required. Students should complete self-directed learning from the Zero-2-Python for Earth Sciences course before beginning EMSC-2010. This foundational programming knowledge will be assumed throughout the course.",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>About this Course</span>"
+    ]
+  },
+  {
+    "objectID": "about.html#get-ready-to-transform-how-you-think-about-data",
+    "href": "about.html#get-ready-to-transform-how-you-think-about-data",
+    "title": "About this Course",
+    "section": "Get Ready to Transform How You Think About Data",
+    "text": "Get Ready to Transform How You Think About Data\nThis is not just a programming course or a statistics course. It is about developing a data science mindset - learning to ask better questions, design robust analyses, interpret results critically, and communicate findings effectively.\nBy the end of this course, you will have the skills and confidence to tackle real Earth System science questions using modern data science tools and methods.\n\n\n\n\n\n\nImportantCourse Philosophy\n\n\n\nThis course employs mastery-based learning principles to ensure all students develop robust data science capabilities. Through problem-based learning with student-selected projects, unlimited assessment attempts in foundational weeks, and progressive skill development, students build confidence and competence in applying data science methods to Earth System science challenges. The course recognizes diverse learning pathways while maintaining rigorous standards for all participants.",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>About this Course</span>"
+    ]
+  },
+  {
+    "objectID": "construction-plan.html",
+    "href": "construction-plan.html",
+    "title": "Course Construction Plan",
+    "section": "",
+    "text": "Status Legend",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Course Construction Plan</span>"
+    ]
+  },
+  {
+    "objectID": "construction-plan.html#status-legend",
+    "href": "construction-plan.html#status-legend",
+    "title": "Course Construction Plan",
+    "section": "",
+    "text": "✅ Complete\n⏱️ Not started / Pending\n⚠️ In progress / Needs attention\n⛔ Blocked / Issue",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Course Construction Plan</span>"
+    ]
+  },
+  {
+    "objectID": "construction-plan.html#development-status-overview",
+    "href": "construction-plan.html#development-status-overview",
+    "title": "Course Construction Plan",
+    "section": "Development Status Overview",
+    "text": "Development Status Overview\n\nPlanning Phase ✅\nComplete course structure, learning outcomes, and assessment design documented.\nKey Documents: - Course Overview - Complete course information and structure - Development Notes - Ongoing planning and decisions - Assessment Analysis - Detailed assessment breakdown - Content Development Guide - Week-by-week content plan",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Course Construction Plan</span>"
+    ]
+  },
+  {
+    "objectID": "construction-plan.html#three-phase-course-structure",
+    "href": "construction-plan.html#three-phase-course-structure",
+    "title": "Course Construction Plan",
+    "section": "Three-Phase Course Structure",
+    "text": "Three-Phase Course Structure\n\nPhase 1: Foundational Skills (Weeks 1-4)\n\n\n\n\n\n\nNoteMastery Learning Approach\n\n\n\nEnsures all students, not just the best, master essential skills before progressing to project work.\n\n\nFormat: 2 × 2-hour practicals + 1-hour tutorial per week Assessment: Weekly quizzes (unlimited attempts, hurdle requirement)\n\nContent Development Status\nWeek 1: Introduction and Setup - ⏱️ Practical 1: Course intro, environment setup, first Python program - ⏱️ Practical 2: Jupyter notebooks, markdown, basic plotting - ⏱️ Tutorial: Course overview, problem-based learning introduction - ⏱️ Example dataset for first visualization\nWeek 2: Data Fundamentals - ⏱️ Practical 1: Data structures, reading files, pandas introduction - ⏱️ Practical 2: Data cleaning, quality assessment - ⏱️ Tutorial: Quiz 1 support, data quality concepts - ⏱️ Quiz 1: Python basics (question bank) - ⏱️ Climate dataset example\nWeek 3: Analysis and Visualization - ⏱️ Practical 1: Data transformation, statistical summaries - ⏱️ Practical 2: Advanced visualization, publication-quality plots - ⏱️ Tutorial: Quiz 2 support, statistical concepts - ⏱️ Quiz 2: Pandas and data manipulation (question bank) - ⏱️ Seismic and spatial datasets\nWeek 4: Version Control and Collaboration - ⏱️ Practical 1: Git fundamentals, repositories, commits - ⏱️ Practical 2: GitHub workflows, pull requests, collaboration - ⏱️ Tutorial: Quiz 3 support, collaborative coding practices - ⏱️ Quiz 3: Git/GitHub and collaboration (question bank) - ⏱️ GitHub Classroom setup - ⏱️ Team formation strategy\n\n\n\n\nPhase 2: Collaborative Problem-Based Learning (Weeks 5, 7-12)\nFormat: 2-hour lectorial + 3-hour practical per week Assessment: GitHub collaborative task (15%) + Team lab notebooks (5%)\n\n\n\n\n\n\nTipStudent Agency\n\n\n\nStudents select problems that are relevant and exciting to them from Earth and Environmental Sciences.\n\n\n\nContent Development Status\nWeek 5: Project Launch - ⏱️ Lectorial: Introduction to problem-based learning - ⏱️ Practical: Team formation, problem brainstorming - ⏱️ GitHub collaborative task specification - ⏱️ Lab notebook template and guidelines - ⏱️ Curated project topics and data sources\nWeek 6: Mid-semester Break - No scheduled classes\nWeek 7: Statistical Foundations - ⏱️ Lectorial: Hypothesis testing, p-values, significance - ⏱️ Practical: Statistical tests with team data - ⏱️ Notebook: Common statistical tests - ⏱️ Earth Science statistical examples\nWeek 8: Prediction and Forecasting - ⏱️ Lectorial: Time series, trend detection, uncertainty - ⏱️ Practical: Time series analysis, forecasting - ⏱️ Notebook: Time series methods - ⏱️ Climate/environmental time series datasets\nWeek 9: Modeling and Simulation - ⏱️ Lectorial: Introduction to modeling, validation - ⏱️ Practical: Building models, sensitivity analysis - ⏱️ Notebook: Simple Earth Science models - ⏱️ Example models (population, diffusion)\nWeek 10: Optimization and Resource Allocation - ⏱️ Lectorial: Optimization, sample size, error propagation - ⏱️ Practical: Optimization examples, power analysis - ⏱️ Notebook: Optimization methods - ⏱️ Sampling strategy examples\nWeek 11: Causation and Attribution - ⏱️ Lectorial: Correlation vs causation, regression - ⏱️ Practical: Regression analysis, multivariate methods - ⏱️ Notebook: Regression and attribution - ⏱️ Climate attribution case study\nWeek 12: Advanced Topics - ⏱️ Lectorial: ML introduction, spatial statistics, presentation skills - ⏱️ Practical: Project finalization, report writing - ⏱️ Notebook: ML basics (sklearn) - ⏱️ Presentation guidelines and rubric\n\n\n\n\nPhase 3: Individual Application (Weeks 8-12 + Exam Period)\nAssessment: Individual project plan (25%) + Project report/presentation/showcase (40%)\n\nDevelopment Status\n\n⏱️ Individual project plan template\n⏱️ Project plan rubric\n⏱️ Project report requirements and rubric\n⏱️ Presentation/showcase format and rubric\n⏱️ Example projects (from 4000-level courses)\n⏱️ Project scoping guidelines\n\nExam Period: Student Showcase - ⏱️ Showcase/presentation schedule and logistics - ⏱️ Presentation format and guidelines (oral examination or conference-style) - ⏱️ Assessment rubric for presentation component - ⏱️ Reflection prompts on learning journey",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Course Construction Plan</span>"
+    ]
+  },
+  {
+    "objectID": "construction-plan.html#assessment-infrastructure",
+    "href": "construction-plan.html#assessment-infrastructure",
+    "title": "Course Construction Plan",
+    "section": "Assessment Infrastructure",
+    "text": "Assessment Infrastructure\n\nQuizzes (15%)\n\n⏱️ Quiz 1 question bank (Week 2)\n⏱️ Quiz 2 question bank (Week 3)\n⏱️ Quiz 3 question bank (Week 4)\n⏱️ Automated grading setup\n⏱️ Mastery threshold definition\n⏱️ Practice quiz materials\n\n\n\nGitHub Collaborative Task (15%)\n\n⏱️ Task specification document\n⏱️ Starter repository template\n⏱️ Assessment rubric (process + product)\n⏱️ GitHub Classroom organization setup\n⏱️ Team formation materials\n\n\n\nTeam Lab Notebooks (5%)\n\n⏱️ Lab notebook template\n⏱️ Expectations document\n⏱️ Assessment rubric\n⏱️ Platform selection (Jupyter? GitHub?)\n\n\n\nIndividual Project Plan (25%)\n\n⏱️ Requirements document\n⏱️ Template with sections\n⏱️ Assessment rubric\n⏱️ Project topic guidance\n⏱️ Example plans\n\n\n\nIndividual Project Report/Presentation/Showcase (40%)\n\n⏱️ Report requirements\n⏱️ Report rubric\n⏱️ Presentation format and questions\n⏱️ Presentation/showcase rubric\n⏱️ Code submission guidelines\n⏱️ Example projects and presentation scenarios",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Course Construction Plan</span>"
+    ]
+  },
+  {
+    "objectID": "construction-plan.html#technical-infrastructure",
+    "href": "construction-plan.html#technical-infrastructure",
+    "title": "Course Construction Plan",
+    "section": "Technical Infrastructure",
+    "text": "Technical Infrastructure\n\nJupyterLite Environment\n\n⏱️ Python package configuration (pixi.toml)\n⏱️ Pre-loaded datasets\n⏱️ Extension setup\n⏱️ Testing and validation\n\n\n\nGitHub Setup\n\n✅ Repository created\n⏱️ GitHub Classroom organization\n⏱️ Template repositories\n⏱️ Automated testing (for quizzes?)\n\n\n\nData Repository\n\n⏱️ Climate datasets (BOM, NOAA)\n⏱️ Seismic catalogs (GA, USGS)\n⏱️ Geoscience datasets\n⏱️ Environmental monitoring data\n⏱️ Spatial/GIS datasets\n⏱️ Data documentation\n\n\n\nCourse Website\n\n✅ Quarto book structure\n⏱️ Custom styling/branding\n✅ GitHub Pages deployment configured\n⏱️ Content population",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Course Construction Plan</span>"
+    ]
+  },
+  {
+    "objectID": "construction-plan.html#content-development-priorities",
+    "href": "construction-plan.html#content-development-priorities",
+    "title": "Course Construction Plan",
+    "section": "Content Development Priorities",
+    "text": "Content Development Priorities\n\n🔴 High Priority (Pre-semester)\nEssential for course launch:\n\nWeek 1-4 Practical Notebooks - Foundation for all students\nThree Quiz Question Banks - Hurdle requirements must be ready\nTutorial Materials - Support for foundational weeks\nGitHub Classroom Setup - Required for collaborative work\nWeek 5 Project Launch Materials - Start of Phase 2\n\n\n\n🟡 Medium Priority (Early Semester)\nNeeded during first 4 weeks:\n\nLectorial Slides (Weeks 7-12) - Can develop during Phase 1\nAssessment Templates and Rubrics - Needed before first assessments due\nData Repository Setup - Curated datasets for student use\nTeam Formation Strategy - Ready for Week 5\n\n\n\n🟢 Lower Priority (Ongoing)\nEnhance and refine:\n\nAdvanced Topic Materials - ML, spatial stats (optional depth)\nExtended Examples - Additional practice problems\nVideo Tutorials - Supplementary learning resources\nCase Studies - Deep-dive examples",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Course Construction Plan</span>"
+    ]
+  },
+  {
+    "objectID": "construction-plan.html#learning-outcomes-coverage",
+    "href": "construction-plan.html#learning-outcomes-coverage",
+    "title": "Course Construction Plan",
+    "section": "Learning Outcomes Coverage",
+    "text": "Learning Outcomes Coverage\nAll content maps to seven learning outcomes:\n\n\n\nLO\nDescription\nAssessment\n\n\n\n\n1\nData Assessment\nProject plan, report, lab notebooks\n\n\n2\nData Management (FAIR)\nQuizzes, GitHub task\n\n\n3\nCritical Evaluation\nProject report, lab notebooks\n\n\n4\nIndependent Application\nQuizzes, project plan, report\n\n\n5\nTechnical Skills (Python)\nQuizzes, GitHub task, report\n\n\n6\nCollaborative Coding\nQuizzes, GitHub task, lab notebooks\n\n\n7\nProfessional Development\nAll assessments",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Course Construction Plan</span>"
+    ]
+  },
+  {
+    "objectID": "construction-plan.html#key-pedagogical-principles",
+    "href": "construction-plan.html#key-pedagogical-principles",
+    "title": "Course Construction Plan",
+    "section": "Key Pedagogical Principles",
+    "text": "Key Pedagogical Principles\n\nMastery Learning\n\nUnlimited quiz attempts in weeks 1-4\nEnsures all students reach required standard\nEquitable foundation for complex work\n\n\n\nProblem-Based Learning\n\nStudent agency in problem selection\nReal Earth & Environmental science context\nEncourages ownership and engagement\n\n\n\nScaffolded Progression\n\nFoundation → Collaboration → Independence\nTeam work builds confidence\nIndividual work demonstrates mastery\n\n\n\nModern Practice\n\nAI tools encouraged with critical evaluation\nCollaboration reflects scientific practice\nVersion control for accountability",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Course Construction Plan</span>"
+    ]
+  },
+  {
+    "objectID": "construction-plan.html#timeline",
+    "href": "construction-plan.html#timeline",
+    "title": "Course Construction Plan",
+    "section": "Timeline",
+    "text": "Timeline\nCurrent Status: Planning complete, content development beginning\nPre-semester Goals: - ✅ Course structure finalized - ⏱️ Week 1-4 content complete - ⏱️ Quiz infrastructure ready - ⏱️ GitHub setup complete\nFirst 4 Weeks Goals: - ⏱️ Deliver foundational content - ⏱️ Finalize lectorial materials - ⏱️ Prepare Phase 2 materials\nMid-semester Goals: - ⏱️ Collaborative projects underway - ⏱️ Individual project support ready - ⏱️ Iterative improvements based on feedback\nEnd of Semester: - ⏱️ Student conference delivered - ⏱️ Course evaluation - ⏱️ Documentation for future iterations",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Course Construction Plan</span>"
+    ]
+  },
+  {
+    "objectID": "construction-plan.html#contact-and-collaboration",
+    "href": "construction-plan.html#contact-and-collaboration",
+    "title": "Course Construction Plan",
+    "section": "Contact and Collaboration",
+    "text": "Contact and Collaboration\n\n\n\n\n\n\nNotePlanning Documents\n\n\n\nComprehensive planning documents are maintained in .local_workspace/ directory (not tracked in git). These provide detailed week-by-week content plans, assessment specifications, and development notes.\nAccess via symlink: CLAUDE → .local_workspace/course_overview.md\n\n\nLast Updated: 2024-10-24 Next Review: Weekly during development\n\n\n\n\n\n\n\nTipContributing\n\n\n\nThis is a collaborative development effort. If you have suggestions, resources, or want to contribute to specific content areas, please contact the course development team.",
+    "crumbs": [
+      "Home",
+      "Course Information",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Course Construction Plan</span>"
     ]
   },
   {
@@ -17,8 +330,9 @@
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "Introduction",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+      "Home",
+      "Week 1-4: Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
@@ -28,9 +342,9 @@
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "Introduction",
-      "Details",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+      "Home",
+      "Week 5-12: Applications",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
@@ -40,8 +354,8 @@
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "Introduction",
-      "Details",
+      "Home",
+      "Week 5-12: Applications",
       "References"
     ]
   },
@@ -52,7 +366,7 @@
     "section": "",
     "text": "Link to index of presentations",
     "crumbs": [
-      "Introduction",
+      "Home",
       "Slides",
       "Lecture 1"
     ]
@@ -64,7 +378,7 @@
     "section": "",
     "text": "TestNB1 (ipynb)\nTestQMD (qmd)",
     "crumbs": [
-      "Introduction",
+      "Home",
       "Appendices",
       "Index of notebooks:"
     ]
@@ -76,7 +390,7 @@
     "section": "",
     "text": "for i in range(0,10):\n    print(i)",
     "crumbs": [
-      "Introduction",
+      "Home",
       "Appendices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Test Notebook</span>"
     ]
@@ -88,7 +402,7 @@
     "section": "",
     "text": "for i in range(0,10):\n    print(i+1)",
     "crumbs": [
-      "Introduction",
+      "Home",
       "Appendices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Quarto MD notebook</span>"
     ]
