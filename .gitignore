@@ -25,8 +25,10 @@ _output
 **/.jupyter
 jupyterlite/dist/
 
-# Claude Code local files
+# Claude Code local files and planning documents
+.local_workspace/
 CLAUDE
+claude_settings
 node_modules/
 package.json
 package-lock.json

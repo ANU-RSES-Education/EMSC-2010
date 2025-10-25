@@ -1,0 +1,159 @@
+---
+title: "About this Course"
+subtitle: "EMSC-2010: Data Science for Earth System Scientists"
+author: "Research School of Earth Sciences, ANU"
+date: last-modified
+---
+
+## Discover How to Ask Better Questions
+
+Data science is the most powerful tool we have for separating scientific fact from fiction. In this course, you will explore practical and relevant problems in Earth and Environmental Sciences by learning how to interpret data, assess uncertainty, model outcomes and make informed decisions.
+
+## What You Will Learn to Answer
+
+This course is built around five key questions that Earth System scientists actually ask:
+
+::: {.callout-note icon=false}
+## Key Questions
+
+- **"How can I make predictions of the future?"**
+- **"Where should I expend the most effort to improve my results?"**
+- **"What accuracy and how many measurements do I need?"**
+- **"Is this result meaningful, or just random chance?"**
+- **"Why is this happening and what's driving the change?"**
+:::
+
+## Course Approach
+
+Using real-world examples and hands-on activities, you will develop analytical thinking and quantitative problem-solving skills that are highly valued across science and industry. This course provides a foundation in essential tools through problem-based learning tailored to the challenges Earth System scientists face today.
+
+::: {.callout-note icon=false}
+## Core Skills
+
+- **Critical thinking** - Evaluating research methods and drawing sound conclusions
+- **Algorithmic approaches** - Breaking down complex problems into solvable steps
+- **Problem-solving strategies** - Using computational thinking for Earth System science
+- **Statistical analysis** - Understanding uncertainty and testing hypotheses
+- **Data science** - Working with real Earth System science datasets
+- **Collaboration** - Modern team-based research workflows
+:::
+
+## Course Details
+
+**Course Code:** EMSC-2010
+**Level:** 2000 (co-badged with 4000)
+**Credit Points:** 6
+**Workload:** ~130 hours throughout semester
+
+::: {.callout-note icon=false}
+## Learning Outcomes
+
+Upon successful completion, you will be able to:
+
+- **[LO1] Assess data quality** - Evaluate suitability and quality of datasets for Earth System science problems
+- **[LO2] Manage data professionally** - Apply contemporary best practices including FAIR data principles
+- **[LO3] Think critically** - Reflect on research quality, appropriateness of analyses, and validity of conclusions
+- **[LO4] Apply independently** - Use statistics, mathematics and programming to solve Earth System science problems
+- **[LO5] Code effectively** - Write Python code to analyse, visualise and model data and create simulations
+- **[LO6] Collaborate** - Work successfully in team coding environments using version control
+- **[LO7] Communicate** - Develop as a lifelong learner and communicate data-driven concepts effectively
+:::
+
+## How You Will Be Assessed
+
+The course uses a three-phase assessment structure designed to build your skills progressively:
+
+### Phase 1: Build Your Foundation (Weeks 1-4)
+
+This phase focuses on developing essential data science skills:
+
+- Critical thinking and evaluating research quality
+- Algorithmic approaches to problem-solving
+- Computational strategies for Earth System science
+- Statistical analysis and hypothesis testing
+- Working with data (quality, manipulation, visualization)
+
+**Important:** This phase builds foundational data science capabilities, not programming skills—those are assumed prerequisites.
+
+::: {.callout-tip}
+## Mastery Learning Approach
+In Phase 1, we focus on mastery of all the concepts you will need in the second part of the course. Weekly quizzes with **unlimited attempts** ensure all students master these essential skills before moving to project work. This is not about getting it right first time—it is about ensuring everyone succeeds.
+:::
+
+**Assessment:** 15% - Three weekly quizzes (hurdle requirement)
+
+### Phase 2: Apply Collaboratively (Weeks 5-12)
+
+Work in teams on real Earth Science problems **you choose**. Learn modern collaborative workflows using GitHub and document your journey.
+
+**Assessment:**
+- 15% - GitHub collaborative task
+- 5% - Team lab notebooks
+
+### Phase 3: Demonstrate Independence (Weeks 8-12 + Exam Period)
+
+Building on your team experience, tackle an individual project from conception through to presentation.
+
+**Assessment:**
+- 25% - Individual project plan (due Week 8-9)
+- 40% - Project report/presentation/showcase (report due Week 12, presentation in exam period)
+
+## What Makes This Course Different
+
+### Student Agency
+You choose problems that are **relevant and exciting to you**. Whether it's climate change, earthquakes, water resources, or mineral exploration - apply data science to questions you care about.
+
+### Modern Practice
+Learn the tools and workflows used in real research:
+- Python programming
+- Version control (Git/GitHub)
+- Jupyter notebooks
+- Data visualization
+- Statistical analysis
+- Collaborative coding
+
+### AI as a Tool
+We **encourage** use of AI tools (ChatGPT, Copilot, etc.) as productivity aids - just like in modern scientific practice. But you will learn to critically evaluate AI outputs, not blindly accept them.
+
+### Equity-Focused Design
+The mastery learning approach in weeks 1-4 ensures **all students, not just the best**, progress prepared for the complex project work ahead. Multiple pathways to success, unlimited attempts, and comprehensive support.
+
+## Weekly Structure
+
+### Weeks 1-4: Foundations
+- 2 × 2-hour practicals (hands-on Python and data skills)
+- 1 × 1-hour tutorial (concepts and quiz support)
+
+### Weeks 5-12: Application
+- 1 × 2-hour lectorial (interactive lecture + tutorial)
+- 1 × 3-hour practical (project work, team collaboration, consultation)
+
+### Exam Period: Student Showcase
+- Individual project presentations or oral examination
+
+## Who This Course is For
+
+This course provides the quantitative and computational foundation for upper-level Earth and Environmental Science courses. Whether you are pursuing:
+
+- Geophysics
+- Climate science
+- Environmental monitoring
+- Geochemistry
+- Hydrology
+- Natural hazards
+
+...you will gain the data science skills essential for modern Earth System science research and industry practice.
+
+**Prerequisites:** Basic Python programming skills are required. Students should complete self-directed learning from the [Zero-2-Python for Earth Sciences](https://anu-rses-education.github.io/Zero-2-Python-for-Earth-Sciences/book/) course before beginning EMSC-2010. This foundational programming knowledge will be assumed throughout the course.
+
+## Get Ready to Transform How You Think About Data
+
+This is not just a programming course or a statistics course. It is about developing a **data science mindset** - learning to ask better questions, design robust analyses, interpret results critically, and communicate findings effectively.
+
+By the end of this course, you will have the skills and confidence to tackle real Earth System science questions using modern data science tools and methods.
+
+::: {.callout-important}
+## Course Philosophy
+
+This course employs mastery-based learning principles to ensure all students develop robust data science capabilities. Through problem-based learning with student-selected projects, unlimited assessment attempts in foundational weeks, and progressive skill development, students build confidence and competence in applying data science methods to Earth System science challenges. The course recognizes diverse learning pathways while maintaining rigorous standards for all participants.
+:::

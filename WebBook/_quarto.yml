@@ -3,17 +3,21 @@ project:
   output-dir: ../_build/book
 
 book:
-  title: "EMSC Quarto"
+  title: "EMSC-2010: Data Science for Earth System Scientists"
   author:
     - "Louis Moresi"
   date: "06/03/2024"
   bread-crumbs: True
   chapters:
-    - part: "Introduction"
+    - part: "Course Information"
       chapters:
         - index.qmd
+        - about.qmd
+        - construction-plan.qmd
+    - part: "Week 1-4: Foundations"
+      chapters:
         - intro.qmd
-    - part: "Details"
+    - part: "Week 5-12: Applications"
       chapters:
         - summary.qmd
         - references.qmd
@@ -30,18 +34,20 @@ book:
   navbar:
     search: true
     logo: assets/ANU-logo.png
-    background: "#C58812"  # ANU honey colour
+    background: "#00A86B"  # Intense jade green
     foreground: white
     left:
-      - text: "Introduction"
+      - text: "Home"
         href: index.qmd
-      - text: "Details"
-        href: summary.qmd
-      - text: "Slides"
-        href: LectureSlides/Lecture1.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Construction Plan"
+        href: construction-plan.qmd
+      - text: "Foundations"
+        href: intro.qmd
     right:
       - icon: github
-        href: https://github.com/ANU-RSES-Education/EMSC-QuartoBook-Course
+        href: https://github.com/ANU-RSES-Education/EMSC-2010
         aria-label: GitHub
 
   sidebar:
@@ -62,7 +68,7 @@ format:
     toc-depth: 3
     code-copy: true
     code-fold: false
-    linkcolor: "#C58812"
+    linkcolor: "#00A86B"
     number-sections: false
     number-depth: 1
     # filters:

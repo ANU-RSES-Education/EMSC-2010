@@ -1,0 +1,350 @@
+---
+title: "Course Construction Plan"
+subtitle: "EMSC-2010: Data Science for Earth System Scientists"
+author: "Course Development Team"
+date: last-modified
+---
+
+::: {.callout-warning}
+## Under Construction
+
+This course is currently under development. This page tracks our progress and provides links to detailed planning documents. This page will be removed once the course is complete.
+:::
+
+## Status Legend
+
+- ✅ Complete
+- ⏱️ Not started / Pending
+- ⚠️ In progress / Needs attention
+- ⛔ Blocked / Issue
+
+---
+
+## Development Status Overview
+
+### Planning Phase ✅
+
+Complete course structure, learning outcomes, and assessment design documented.
+
+**Key Documents:**
+- [Course Overview](.local_workspace/course_overview.md) - Complete course information and structure
+- [Development Notes](.local_workspace/development_notes.md) - Ongoing planning and decisions
+- [Assessment Analysis](.local_workspace/assessment_analysis.md) - Detailed assessment breakdown
+- [Content Development Guide](.local_workspace/content_development_guide.md) - Week-by-week content plan
+
+---
+
+## Three-Phase Course Structure
+
+### Phase 1: Foundational Skills (Weeks 1-4)
+
+::: {.callout-note}
+## Mastery Learning Approach
+Ensures **all students, not just the best**, master essential skills before progressing to project work.
+:::
+
+**Format:** 2 × 2-hour practicals + 1-hour tutorial per week
+**Assessment:** Weekly quizzes (unlimited attempts, hurdle requirement)
+
+#### Content Development Status
+
+**Week 1: Introduction and Setup**
+- ⏱️ Practical 1: Course intro, environment setup, first Python program
+- ⏱️ Practical 2: Jupyter notebooks, markdown, basic plotting
+- ⏱️ Tutorial: Course overview, problem-based learning introduction
+- ⏱️ Example dataset for first visualization
+
+**Week 2: Data Fundamentals**
+- ⏱️ Practical 1: Data structures, reading files, pandas introduction
+- ⏱️ Practical 2: Data cleaning, quality assessment
+- ⏱️ Tutorial: Quiz 1 support, data quality concepts
+- ⏱️ Quiz 1: Python basics (question bank)
+- ⏱️ Climate dataset example
+
+**Week 3: Analysis and Visualization**
+- ⏱️ Practical 1: Data transformation, statistical summaries
+- ⏱️ Practical 2: Advanced visualization, publication-quality plots
+- ⏱️ Tutorial: Quiz 2 support, statistical concepts
+- ⏱️ Quiz 2: Pandas and data manipulation (question bank)
+- ⏱️ Seismic and spatial datasets
+
+**Week 4: Version Control and Collaboration**
+- ⏱️ Practical 1: Git fundamentals, repositories, commits
+- ⏱️ Practical 2: GitHub workflows, pull requests, collaboration
+- ⏱️ Tutorial: Quiz 3 support, collaborative coding practices
+- ⏱️ Quiz 3: Git/GitHub and collaboration (question bank)
+- ⏱️ GitHub Classroom setup
+- ⏱️ Team formation strategy
+
+---
+
+### Phase 2: Collaborative Problem-Based Learning (Weeks 5, 7-12)
+
+**Format:** 2-hour lectorial + 3-hour practical per week
+**Assessment:** GitHub collaborative task (15%) + Team lab notebooks (5%)
+
+::: {.callout-tip}
+## Student Agency
+Students select problems that are **relevant and exciting** to them from Earth and Environmental Sciences.
+:::
+
+#### Content Development Status
+
+**Week 5: Project Launch**
+- ⏱️ Lectorial: Introduction to problem-based learning
+- ⏱️ Practical: Team formation, problem brainstorming
+- ⏱️ GitHub collaborative task specification
+- ⏱️ Lab notebook template and guidelines
+- ⏱️ Curated project topics and data sources
+
+**Week 6: Mid-semester Break**
+- No scheduled classes
+
+**Week 7: Statistical Foundations**
+- ⏱️ Lectorial: Hypothesis testing, p-values, significance
+- ⏱️ Practical: Statistical tests with team data
+- ⏱️ Notebook: Common statistical tests
+- ⏱️ Earth Science statistical examples
+
+**Week 8: Prediction and Forecasting**
+- ⏱️ Lectorial: Time series, trend detection, uncertainty
+- ⏱️ Practical: Time series analysis, forecasting
+- ⏱️ Notebook: Time series methods
+- ⏱️ Climate/environmental time series datasets
+
+**Week 9: Modeling and Simulation**
+- ⏱️ Lectorial: Introduction to modeling, validation
+- ⏱️ Practical: Building models, sensitivity analysis
+- ⏱️ Notebook: Simple Earth Science models
+- ⏱️ Example models (population, diffusion)
+
+**Week 10: Optimization and Resource Allocation**
+- ⏱️ Lectorial: Optimization, sample size, error propagation
+- ⏱️ Practical: Optimization examples, power analysis
+- ⏱️ Notebook: Optimization methods
+- ⏱️ Sampling strategy examples
+
+**Week 11: Causation and Attribution**
+- ⏱️ Lectorial: Correlation vs causation, regression
+- ⏱️ Practical: Regression analysis, multivariate methods
+- ⏱️ Notebook: Regression and attribution
+- ⏱️ Climate attribution case study
+
+**Week 12: Advanced Topics**
+- ⏱️ Lectorial: ML introduction, spatial statistics, presentation skills
+- ⏱️ Practical: Project finalization, report writing
+- ⏱️ Notebook: ML basics (sklearn)
+- ⏱️ Presentation guidelines and rubric
+
+---
+
+### Phase 3: Individual Application (Weeks 8-12 + Exam Period)
+
+**Assessment:** Individual project plan (25%) + Project report/presentation/showcase (40%)
+
+#### Development Status
+
+- ⏱️ Individual project plan template
+- ⏱️ Project plan rubric
+- ⏱️ Project report requirements and rubric
+- ⏱️ Presentation/showcase format and rubric
+- ⏱️ Example projects (from 4000-level courses)
+- ⏱️ Project scoping guidelines
+
+**Exam Period: Student Showcase**
+- ⏱️ Showcase/presentation schedule and logistics
+- ⏱️ Presentation format and guidelines (oral examination or conference-style)
+- ⏱️ Assessment rubric for presentation component
+- ⏱️ Reflection prompts on learning journey
+
+---
+
+## Assessment Infrastructure
+
+### Quizzes (15%)
+- ⏱️ Quiz 1 question bank (Week 2)
+- ⏱️ Quiz 2 question bank (Week 3)
+- ⏱️ Quiz 3 question bank (Week 4)
+- ⏱️ Automated grading setup
+- ⏱️ Mastery threshold definition
+- ⏱️ Practice quiz materials
+
+### GitHub Collaborative Task (15%)
+- ⏱️ Task specification document
+- ⏱️ Starter repository template
+- ⏱️ Assessment rubric (process + product)
+- ⏱️ GitHub Classroom organization setup
+- ⏱️ Team formation materials
+
+### Team Lab Notebooks (5%)
+- ⏱️ Lab notebook template
+- ⏱️ Expectations document
+- ⏱️ Assessment rubric
+- ⏱️ Platform selection (Jupyter? GitHub?)
+
+### Individual Project Plan (25%)
+- ⏱️ Requirements document
+- ⏱️ Template with sections
+- ⏱️ Assessment rubric
+- ⏱️ Project topic guidance
+- ⏱️ Example plans
+
+### Individual Project Report/Presentation/Showcase (40%)
+- ⏱️ Report requirements
+- ⏱️ Report rubric
+- ⏱️ Presentation format and questions
+- ⏱️ Presentation/showcase rubric
+- ⏱️ Code submission guidelines
+- ⏱️ Example projects and presentation scenarios
+
+---
+
+## Technical Infrastructure
+
+### JupyterLite Environment
+- ⏱️ Python package configuration (pixi.toml)
+- ⏱️ Pre-loaded datasets
+- ⏱️ Extension setup
+- ⏱️ Testing and validation
+
+### GitHub Setup
+- ✅ Repository created
+- ⏱️ GitHub Classroom organization
+- ⏱️ Template repositories
+- ⏱️ Automated testing (for quizzes?)
+
+### Data Repository
+- ⏱️ Climate datasets (BOM, NOAA)
+- ⏱️ Seismic catalogs (GA, USGS)
+- ⏱️ Geoscience datasets
+- ⏱️ Environmental monitoring data
+- ⏱️ Spatial/GIS datasets
+- ⏱️ Data documentation
+
+### Course Website
+- ✅ Quarto book structure
+- ⏱️ Custom styling/branding
+- ✅ GitHub Pages deployment configured
+- ⏱️ Content population
+
+---
+
+## Content Development Priorities
+
+### 🔴 High Priority (Pre-semester)
+
+Essential for course launch:
+
+1. **Week 1-4 Practical Notebooks** - Foundation for all students
+2. **Three Quiz Question Banks** - Hurdle requirements must be ready
+3. **Tutorial Materials** - Support for foundational weeks
+4. **GitHub Classroom Setup** - Required for collaborative work
+5. **Week 5 Project Launch Materials** - Start of Phase 2
+
+### 🟡 Medium Priority (Early Semester)
+
+Needed during first 4 weeks:
+
+6. **Lectorial Slides (Weeks 7-12)** - Can develop during Phase 1
+7. **Assessment Templates and Rubrics** - Needed before first assessments due
+8. **Data Repository Setup** - Curated datasets for student use
+9. **Team Formation Strategy** - Ready for Week 5
+
+### 🟢 Lower Priority (Ongoing)
+
+Enhance and refine:
+
+10. **Advanced Topic Materials** - ML, spatial stats (optional depth)
+11. **Extended Examples** - Additional practice problems
+12. **Video Tutorials** - Supplementary learning resources
+13. **Case Studies** - Deep-dive examples
+
+---
+
+## Learning Outcomes Coverage
+
+All content maps to seven learning outcomes:
+
+| LO | Description | Assessment |
+|----|-------------|------------|
+| 1 | Data Assessment | Project plan, report, lab notebooks |
+| 2 | Data Management (FAIR) | Quizzes, GitHub task |
+| 3 | Critical Evaluation | Project report, lab notebooks |
+| 4 | Independent Application | Quizzes, project plan, report |
+| 5 | Technical Skills (Python) | Quizzes, GitHub task, report |
+| 6 | Collaborative Coding | Quizzes, GitHub task, lab notebooks |
+| 7 | Professional Development | All assessments |
+
+---
+
+## Key Pedagogical Principles
+
+### Mastery Learning
+- Unlimited quiz attempts in weeks 1-4
+- Ensures all students reach required standard
+- Equitable foundation for complex work
+
+### Problem-Based Learning
+- Student agency in problem selection
+- Real Earth & Environmental science context
+- Encourages ownership and engagement
+
+### Scaffolded Progression
+- Foundation → Collaboration → Independence
+- Team work builds confidence
+- Individual work demonstrates mastery
+
+### Modern Practice
+- AI tools encouraged with critical evaluation
+- Collaboration reflects scientific practice
+- Version control for accountability
+
+---
+
+## Timeline
+
+**Current Status:** Planning complete, content development beginning
+
+**Pre-semester Goals:**
+- ✅ Course structure finalized
+- ⏱️ Week 1-4 content complete
+- ⏱️ Quiz infrastructure ready
+- ⏱️ GitHub setup complete
+
+**First 4 Weeks Goals:**
+- ⏱️ Deliver foundational content
+- ⏱️ Finalize lectorial materials
+- ⏱️ Prepare Phase 2 materials
+
+**Mid-semester Goals:**
+- ⏱️ Collaborative projects underway
+- ⏱️ Individual project support ready
+- ⏱️ Iterative improvements based on feedback
+
+**End of Semester:**
+- ⏱️ Student conference delivered
+- ⏱️ Course evaluation
+- ⏱️ Documentation for future iterations
+
+---
+
+## Contact and Collaboration
+
+::: {.callout-note}
+## Planning Documents
+
+Comprehensive planning documents are maintained in `.local_workspace/` directory (not tracked in git). These provide detailed week-by-week content plans, assessment specifications, and development notes.
+
+Access via symlink: `CLAUDE` → `.local_workspace/course_overview.md`
+:::
+
+**Last Updated:** 2024-10-24
+**Next Review:** Weekly during development
+
+---
+
+::: {.callout-tip}
+## Contributing
+
+This is a collaborative development effort. If you have suggestions, resources, or want to contribute to specific content areas, please contact the course development team.
+:::

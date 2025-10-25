@@ -1,22 +1,167 @@
 ---
-title: EMSC e-Course template
-author: Prof Louis Moresi 
-date: 2024-03-17
-jupyter:
-  jupytext:
-    text_representation:
-      extension: .qmd
-      format_name: quarto
-      format_version: '1.0'
-      jupytext_version: 1.16.1
-  kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
+title: "EMSC-2010"
+subtitle: "Data Science for Earth System Scientists"
+author: "Research School of Earth Sciences, ANU"
+date: last-modified
 ---
 
-This is a template repository for Lecture notes that include a computational component. It builds a website from the notes and includes live-links to source code that will run on [binder](https://www.mybinder.org). This template is pre-configured for courses at Research School of Earth Sciences, but is freely available for adoption elsewhere.
+## Welcome to EMSC-2010
 
-I use the [Quarto](https://quarto.org/docs/books) publication system which converts simple markdown formatted documents to webpages, pdf and slides. Quarto is designed to develop reusable content and is based around [pandoc](https://pandoc.org): you should be able to quickly import and convert content to the quarto version of markdown (especially if you have been using jupyter-book or myst-md - the concepts are very similar).
+::: {.callout-note icon=false}
+## Learn to Ask Better Questions — and Find Meaningful Answers
 
-To use this repository, you will need make a fork for yourself and replace this content with your own. You will also need set a few configuration options to match the course metadata. I'm going to explain how this works.
+Data science is the most powerful tool we have for separating scientific fact from fiction. This course will teach you to interpret data, assess uncertainty, model outcomes, and make informed decisions about real Earth and Environmental science problems.
+:::
+
+### Quick Links
+
+- [**About this Course**](about.qmd) - Full course information, learning outcomes, and structure
+- [**Construction Plan**](construction-plan.qmd) - Current development status and roadmap
+- [**Course Materials**](intro.qmd) - Lecture notes, practicals, and resources (under development)
+
+---
+
+## What You'll Learn
+
+This course is built around five key questions:
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Prediction
+**"How can I make predictions of the future?"**
+
+Learn time series analysis, trend detection, and forecasting methods using real climate and environmental data.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Optimization
+**"Where should I expend effort to improve results?"**
+
+Master sensitivity analysis, error propagation, and resource allocation strategies for field studies and monitoring.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Measurement
+**"What accuracy and how many measurements do I need?"**
+
+Apply sample size determination, power analysis, and measurement error assessment to real sampling problems.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Significance
+**"Is this result meaningful, or just random chance?"**
+
+Understand hypothesis testing, statistical significance, and how to separate signal from noise in Earth science data.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Causation
+**"Why is this happening and what's driving the change?"**
+
+Explore correlation vs. causation, attribution methods, and multivariate analysis for understanding Earth system processes.
+:::
+
+:::
+
+---
+
+## Course Structure
+
+### Three-Phase Learning Design
+
+::: {.callout-tip}
+## Phase 1: Build Your Foundation (Weeks 1-4)
+**Mastery learning** with unlimited quiz attempts ensures all students develop essential data science skills: critical thinking, algorithmic problem-solving, statistical analysis, hypothesis testing, and working with data.
+
+- 2 × 2-hour practicals per week
+- 1 × 1-hour tutorial per week
+- Weekly quizzes (hurdle requirement)
+:::
+
+::: {.callout-tip}
+## Phase 2: Apply Collaboratively (Weeks 5-12)
+Work in teams on **problems you choose** from Earth and Environmental Sciences. Learn modern collaborative workflows.
+
+- 2-hour lectorial per week
+- 3-hour practical per week
+- GitHub collaborative project
+- Team lab notebooks
+:::
+
+::: {.callout-tip}
+## Phase 3: Demonstrate Independence (Weeks 8-12 + Exam Period)
+Tackle an individual project from planning through to presentation, building on your team experience.
+
+- Individual project plan
+- Project execution
+- Final report (due Week 12)
+- Project showcase (exam period)
+:::
+
+---
+
+## Key Features
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### Student Choice
+Select problems that are **relevant and exciting to you** - climate change, earthquakes, water resources, mineral exploration, or any Earth science question you care about.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Modern Tools
+Learn Python, Git/GitHub, Jupyter notebooks, and data visualization - the same tools used in real research and industry.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Equity-Focused
+**All students, not just the best**, master essential skills through unlimited attempts and comprehensive support.
+:::
+
+:::
+
+---
+
+## Getting Started
+
+::: {.callout-important}
+## Course Under Construction
+
+This course is currently being developed. Content will be added progressively throughout semester preparation. Check the [Construction Plan](construction-plan.qmd) for current status.
+:::
+
+### What's Available Now
+
+✅ Course structure and learning outcomes defined
+✅ Assessment framework established
+✅ Week-by-week content plan created
+
+### Coming Soon
+
+⏱️ Week 1-4 practical notebooks
+⏱️ Quiz materials
+⏱️ Project templates
+⏱️ Lectorial slides
+
+---
+
+## Course Details
+
+**Level:** 2000 (co-badged with 4000)
+**Credit Points:** 6
+**Workload:** ~130 hours
+**Prerequisites:** Basic Python programming ([Zero-2-Python for Earth Sciences](https://anu-rses-education.github.io/Zero-2-Python-for-Earth-Sciences/book/))
+
+**Contact:** Research School of Earth Sciences, ANU
+
+---
+
+::: {.callout-note}
+## About This Site
+
+This site contains all course materials including lecture notes, practical notebooks, slides, and assessment information. It is built using [Quarto](https://quarto.org) and hosted on GitHub Pages.
+
+All materials are open source and available on [GitHub](https://github.com/ANU-RSES-Education/EMSC-2010).
+:::
